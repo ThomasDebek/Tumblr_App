@@ -8,7 +8,7 @@
       %th{:colspan =>3}
       %tbody
         - @posts.each do |post|
-          %td= post.title
+          %td= link_to post.title, post
           %td= post.body
           %td= time_ago_in_words(post.created_at)
           %td= link_to "Show", post
