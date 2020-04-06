@@ -9,6 +9,8 @@ gem 'rubocop'
 gem 'haml'
 gem 'simple_form'
 gem 'devise'
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
